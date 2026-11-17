@@ -1,5 +1,9 @@
 # btc-race-24h — Filtered-Dip Long-Only BTC Bot
 
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/axzss/btc-race-24h-20261117-0603/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/axzss/btc-race-24h-20261117-0603/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+
 Entry for the make.fun competition `btc-race-24h-20261117-0603`: race a BTC
 trading bot live for 24 hours on paper money. The bot trades cbBTC vs USDC
 on Solana, long-only, starting from $1,000.
@@ -54,6 +58,16 @@ Exact grade-local numbers (exact harness) are recorded in NOTES.md.
   after run.
 - Position sizing: full cash on entry (max weight is 100% of equity),
   whole position on exit. At most 1 open position, at most 1 order per bar.
+
+## Run it
+
+```sh
+node cli/makefun.mjs grade-local --kit . --bot <repository> --driver docker
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=1409h78a&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
 
 ## License
 
