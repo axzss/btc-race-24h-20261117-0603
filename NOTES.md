@@ -4,8 +4,8 @@
 
 - **Competition:** btc-race-24h-20261117-0603 ($250 USDC: 1st $60, 2nd $40, 3rd $30, 4th $25, 5th $20, 6th–10th $15)
 - **Entries close:** 17 Nov 2026 19:03 WIB (12:03 UTC). Race starts ~19:18 WIB, runs 24h.
-- **Repo:** (to be filled on creation)
-- **Commit:** (to be filled)
+- **Repo:** https://github.com/axzss/btc-race-24h-20261117-0603 (public, created 2026-11-17T07:43:10Z, after open 2026-11-17T06:03:00Z)
+- **Commit:** 9fb2e6239ee147db25dc359ef29c481b53a30a76 (initial commit; NOTES.md updated in a follow-up commit — see git log for the final SHA at submit time)
 - **Bundle:** (to be filled)
 - **Payout wallet:** 9ynfaoa7PmuvzgHFV2mP46WUrngtnQ4zZM7TJZAgPqiP (`.makefun/owner.json`).
 
