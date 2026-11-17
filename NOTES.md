@@ -5,8 +5,10 @@
 - **Competition:** btc-race-24h-20261117-0603 ($250 USDC: 1st $60, 2nd $40, 3rd $30, 4th $25, 5th $20, 6th–10th $15)
 - **Entries close:** 17 Nov 2026 19:03 WIB (12:03 UTC). Race starts ~19:18 WIB, runs 24h.
 - **Repo:** https://github.com/axzss/btc-race-24h-20261117-0603 (public, created 2026-11-17T07:43:10Z, after open 2026-11-17T06:03:00Z)
-- **Commit:** 9fb2e6239ee147db25dc359ef29c481b53a30a76 (initial commit; NOTES.md updated in a follow-up commit — see git log for the final SHA at submit time)
-- **Bundle:** (to be filled)
+- **Commit:** 7668492841522d497912df35540b858a030b0c3a (final; see git log)
+- **Bundle:** ~/workspace/makefun/btc-race-24h-20261117-0603-bundle.tar.gz (810,182 bytes, sha256 ff0e236663156bb454a35b93cd6fa58ff82ee858760d3676d737d88dd0307f34) — 2 sessions (parent + subagent), run record: handed-off prompt = user's verbatim standing rule (17 Nov ~14:31 WIB), harness muse-app / Muse Spark 1.3, provider meta, model muse-spark-1.3, effort high, MCP none. ⚠️ RE-BUNDLE AFTER THE SUBAGENT'S TURN ENDS: the subagent's usage row is written only when its run completes — Arch must re-run the SELECT (agent_ids 12ae6cf4-e4b9-4009-8d99-da5e500e0485 + e29bd91f-d88e-4f56-baa9-5e5138528594) and re-bundle before submitting, so the subagent's row attaches (same pattern as 16 Nov). Bundle command + prompt/usage/system-prompt files in ~/workspace/makefun/ (btc-race-0603-prompt.txt, muse-usage-0603.jsonl, btc-race-0603-system-prompt.txt).
+- **Kit check (with bundle): 14 passed, 0 failed, 4 skipped, 5 checked at submission** — transcripts_present, thinking_reproduces 57.9% (≥30%), thinking_revised (main.ts from 2 messages), thinking_priced (8 usage records), thinking_in_window, transcripts_run_record all PASS. Site-side checks (repo_public, repo_owner via owner.json, repo_created_after_open, commit_in_repo, duplicate_snapshot) verified locally: repo public, owner.json committed, created after open, commit pushed.
+- **Secret grep:** repo + bundle clean (0 matches for af_/ghp_/sk-or/private-key patterns).
 - **Payout wallet:** 9ynfaoa7PmuvzgHFV2mP46WUrngtnQ4zZM7TJZAgPqiP (`.makefun/owner.json`).
 
 ## Race mechanics
