@@ -1,12 +1,18 @@
 # btc-race-24h-20261117-0603 — NOTES (Agent M)
 
-## Submission — ⏳ PREPARED, NOT SUBMITTED (Arch submits personally)
+## Submission — ✅ SUBMITTED by Arch 17 Nov ~14:57 WIB
+
+- **Submission:** 01a1e882-76de-7733-aef9-87f237fa1f71, claim AF-YXME3-HEF7Y-6BKK8-ECV6D, stage **"submitted"** (verified via API ~14:58 WIB; server verification async — stage may still flip, poll the status endpoint).
+- **Commit submitted:** aea5d1c478a0fed870560426406646c025323e00 (axzss <toynsfreg@gmail.com>).
+- **Bundle submitted:** ~/workspace/makefun/btc-race-24h-20261117-0603-bundle.tar.gz (892,502 bytes, sha256 1bfed830562e64e9f9b7d269fd4989456b65d8648b9c69eeeb49c0ca76441b3b) — re-bundled by Arch after the agent's run (usage rows refreshed, 200 rows: 199 parent + 1 subagent completion row).
+- **Submit path:** first attempt (commit ecc4470) REFUSED on repo_readme (branding — README had no make.fun badges; refusal does NOT count against quota). Fixed by Arch in-session: README + 3 live badges + run command + referral footer (commit aea5d1c, author corrected from Test/test@example.invalid — global git config is a fake identity, always use -c user.name=axzss -c user.email=toynsfreg@gmail.com), repo About set via gh (description + homepage bounty URL + topics makefun/ai-agents/bounties/trading). Re-check 14 passed / 0 failed, re-submit OK.
+- **Race:** entries close 17 Nov 19:03 WIB, race starts ~19:18 WIB, 24h live. Result ~18 Nov 19:18 WIB. Prize claim needs user go-ahead — never auto.
 
 - **Competition:** btc-race-24h-20261117-0603 ($250 USDC: 1st $60, 2nd $40, 3rd $30, 4th $25, 5th $20, 6th–10th $15)
 - **Entries close:** 17 Nov 2026 19:03 WIB (12:03 UTC). Race starts ~19:18 WIB, runs 24h.
 - **Repo:** https://github.com/axzss/btc-race-24h-20261117-0603 (public, created 2026-11-17T07:43:10Z, after open 2026-11-17T06:03:00Z)
-- **Commit:** 7668492841522d497912df35540b858a030b0c3a (final; see git log)
-- **Bundle:** ~/workspace/makefun/btc-race-24h-20261117-0603-bundle.tar.gz (825,618 bytes, sha256 9b2dd375feb5c0e81897c7e86397b0448681351fee5d16f95673fbda725c7da8, built against commit ea2d8ed) — 2 sessions (parent + subagent), run record: handed-off prompt = user's verbatim standing rule (17 Nov ~14:31 WIB), harness muse-app / Muse Spark 1.3, provider meta, model muse-spark-1.3, effort high, MCP none. ⚠️ ARCH RE-BUNDLES BEFORE SUBMITTING: the subagent's usage row is written only when its run completes — after this turn ends, re-run the SELECT (agent_ids 12ae6cf4-e4b9-4009-8d99-da5e500e0485 + e29bd91f-d88e-4f56-baa9-5e5138528594), re-bundle with the same flags (files in ~/workspace/makefun/: btc-race-0603-prompt.txt, muse-usage-0603.jsonl — refresh it with the new SELECT output — btc-race-0603-system-prompt.txt), re-run check, then submit the final commit + new bundle sha. (Same pattern as 16 Nov.)
+- **Commit:** 7668492841522d497912df35540b858a030b0c3a (agent's final; see git log) — superseded by aea5d1c478a0fed870560426406646c025323e00 (Arch README branding fix, SUBMITTED).
+- **Bundle:** ~/workspace/makefun/btc-race-24h-20261117-0603-bundle.tar.gz (825,618 bytes, sha256 9b2dd375feb5c0e81897c7e86397b0448681351fee5d16f95673fbda725c7da8, built against commit ea2d8ed) — superseded by Arch re-bundle (892,502 bytes, sha256 1bfed830562e64e9f9b7d269fd4989456b65d8648b9c69eeeb49c0ca76441b3b).
 - **Kit check (with bundle): 14 passed, 0 failed, 4 skipped, 5 checked at submission** — transcripts_present, thinking_reproduces 57.9% (≥30%), thinking_revised (main.ts from 2 messages), thinking_priced (8 usage records), thinking_in_window, transcripts_run_record all PASS. Site-side checks (repo_public, repo_owner via owner.json, repo_created_after_open, commit_in_repo, duplicate_snapshot) verified locally: repo public, owner.json committed, created after open, commit pushed.
 - **Secret grep:** repo + bundle clean (0 matches for af_/ghp_/sk-or/private-key patterns).
 - **Payout wallet:** 9ynfaoa7PmuvzgHFV2mP46WUrngtnQ4zZM7TJZAgPqiP (`.makefun/owner.json`).
